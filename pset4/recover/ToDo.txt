@@ -1,0 +1,12 @@
+open memory card
+Rpeat until end of memory card
+    Read 512 bytes into a buffer
+    If start of new JPEG (looking at first 4 bytes)
+        If first JPEG 
+            ...
+        Else (if already found a JPEG)
+            ... (close the file you have been writing into and star writing in a new 00(x+1).jpg file)
+    Else
+        If already found JPEG
+            ... (keep writing into the .jpg file - this process might be repeated multiple times as jpegs have several 512 bytes blocks)
+Close any remaining files
