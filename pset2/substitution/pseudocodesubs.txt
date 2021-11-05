@@ -1,0 +1,12 @@
+get key
+validate key
+    check key length
+    check for non alphabetic characters
+    check for repeated characters (case insensitive)
+get plain text
+encypher
+    for each alphabetic character determine what letter it maps to
+    preserve case
+    leave non alphabetic characters as is
+print cyphertext
+

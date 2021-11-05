@@ -1,0 +1,6 @@
+Ask user how much change is owed
+How many of 25 cents
+Idem 10 c
+Idem 5 c
+Idem 1 c
+Print the minimum number of coins that change can be made (round)

@@ -1,0 +1,7 @@
+Ask for string
+Count letters, words (separated by ',' or ' ') and sentences.
+Take averages of #letters and #sentences per 100 words
+Calculate the index
+Return grade (if >16 then 16+, <1 then before 1)
+
+
