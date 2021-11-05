@@ -1,0 +1,29 @@
+TABULATE
+
+for i = 0 until < voters
+    for j = 0 until < candidates
+        save the candidate of preferences[i][j]
+        if candidate is not eliminated
+            candidates add one vote
+    
+            
+FIND MIN
+
+int min = candidate 0 amount of votes
+for i = 0 until < candidates
+    if candidate i is not eliminated 
+        if candidates votes < min
+            min = candidate i votes
+return min 
+
+IS TIE (int min)
+
+for i = 0 until < candidates
+    if candidate is not eliminated
+        add one to number of candidates still runing
+    if candidate amount of votes is equal to min
+        add one to number of candidates with the min amount of votes
+if both numbers are equal
+    return true
+else
+    false

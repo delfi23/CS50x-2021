@@ -1,0 +1,11 @@
+sort1 uses: bubble sort
+
+How do you know?: was faster with the sorted files
+
+sort2 uses: merge sort
+
+How do you know?: was faster with the random files
+
+sort3 uses: selection sort
+
+How do you know?: was slower

@@ -1,0 +1,19 @@
+VOTE string name
+
+for i = 0 until candidate_count - 1
+    if candidate[i].name is equal to name       COMPARE STRING WITH STRCMP !!
+        candidate[i].vote + 1
+        return true
+return false
+
+PRINT WINNER
+int max  = 0
+string winner
+
+for i = 0 until candidate_count - 1
+    if candidate votes > max
+        max is candidate votes
+        winner is candidate name
+    
+        
+    

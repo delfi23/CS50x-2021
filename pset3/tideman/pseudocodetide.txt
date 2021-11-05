@@ -1,0 +1,36 @@
+bool vote (int rank, string name, int ranks[])
+for i = 0 until i < amount of candidates
+    if there is a candidate that matches name
+        update ranks array
+        return true
+return false
+
+void record_preferences(int ranks[])
+for i = 0 until < candidates
+    for j = 0 until < candidates
+        if j is different to i
+            search until rank[r] is same as candidate i of variable preferences
+                save rank.candidate.i is r
+            search until rank[r] is same as candidate j of variable preferences
+                save rank.candidate.j is r
+            if ri is lower (before) than rj
+                add one to preferences[i][j]
+
+void add_pairs()
+
+for i = 0 until < candidates
+    for j = 0 < candidates
+        if preferences[i][j] > preferences [j][i]
+            winner is i
+            loser is j
+            add one to pairs count
+            
+void sort_pairs()
+
+
+for i = 0 until < pair_count
+    for j = 0 until < pair_count
+        if votes for winner of pair j is > max
+            update max to the #votes candidate of pair j
+            copyarray[i] = pair[j]
+
