@@ -6,7 +6,7 @@
  
  ## Contents
    1. [Week 1 - C](https://cs50.harvard.edu/x/2021/weeks/1/)
-      - [Lab 1 - Ppoulation Growth](https://cs50.harvard.edu/x/2021/labs/1/population/)
+      - [Lab 1 - Population Growth](https://cs50.harvard.edu/x/2021/labs/1/population/)
       - [Pset1](https://cs50.harvard.edu/x/2021/psets/1/)
         - [Cash](https://cs50.harvard.edu/x/2021/psets/1/cash/)
         - [Mario less](https://cs50.harvard.edu/x/2021/psets/1/mario/less/)
